@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+    text-decoration: none;
+    list-style: none;
+}
+
+:root{
+    --white: #fff;
+    --light-gray: #f1f3f7;
+    --ice-white: #f6f6f6;
+    --pale-gray: #a89f9f;
+    --dark-green: #233032;
+    --light-blue: #2f86d6;
+    --shadow: rgb(47,134,214,1);
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+header > div, ul{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+header > div > h1{
+    font-size: 16px;
+}
+
+.logo{
+    width: 80px;
+}
+a{
+    color: #000;
+}
+.text-light-blue{
+    color: var(--light-blue) !important;
+}
+
+.text-black{
+    color: #000 !important;
+}
+.text-light-gray{
+    color: var(--pale-gray) !important;
+}
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--light-blue);   
+    padding: 60px; 
+    gap: 10px;
+}
+.banner > div{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.banner > div > p,h2{
+    color: var(--white) !important;
+}
+.first-announcement{
+    background-color: var(--dark-green);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+.first-announcement > div, a, p{
+    color: var(--white) !important;
+}
+.table-price{
+    background-color: var(--light-blue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding: 10px;
+}
+.table-price{
+    font-weight: bold;
+}
+.informations{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;   
+    gap: 15px; 
+}
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    width: 75%;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 10px;
+}
+.informations > h3{
+    width: 40%;
+    text-align: center;
+}
+.card > p{
+    text-align: center;
+}
+.plans{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--light-gray);
+    padding: 70px;
+    gap: 40px;
+}
+table{
+    box-shadow: 2px 2px 30px var(--shadow);
+    text-align: center;
+}
+th{
+    text-align: center;
+}
+th{
+    text-align: center;
+    padding: 10px;
+}
+th > p{
+    width: 95%;
+}
+td{
+   padding: 10px 30px;
+}
+tbody>tr:nth-child(odd){
+    background-color: #e6e6e6;
+}
+.secodary-announcement{
+    background-color: var(--light-blue);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+.secodary-announcement > div, a, p{
+    color: var(--white) !important;
+}
+.secodary-announcement > div > h3{
+    width: 65%;
+}
+.background-dark-green{
+    background-color: var(--dark-green) !important;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+footer{
+    padding-top: 20px;
+}
+.firts{
+    display: flex;
+    gap: 10px;
+    margin: 20px;
+}
+.secondary{
+   text-align: center;
+   font-weight: 500; 
+}
+.third{
+    padding: 20px;
+}
+.background-light-blue{
+    background-color: var(--light-blue) !important;
+}
+.bgd-white{
+    background-color: var(--white) !important;
+}
+.width-total{
+    width: 100%;
+    text-align: center;
+}
+.bold{
+    font-weight: bold;
+}
+
+.data{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+.prices{
+    box-shadow: none;
+}
+.ball{
+    background-color: var(--light-blue);
+    font-size: 9px;
+    padding: 0px 3px;
+    border-radius: 100%;
+}
+.bgd-none{
+    display: none;
+}
+.bgd-light-gray{
+    background-color: #e6e6e6 !important;
+}
+.th,td{
+    background-color: var(--white);
+}
